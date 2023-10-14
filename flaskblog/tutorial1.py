@@ -11,5 +11,6 @@ def home():
 def about():
     return "<h1>About Page</h1>"
 
+# to run as module as well as py file
 if __name__ == "__main__":
     app.run(debug=True)
